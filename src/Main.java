@@ -41,31 +41,5 @@ public class Main {
                 .collect(Collectors.toList());
         System.out.println(workable.size() + " - количество работоспособных жителей с высшим образованием");
 
-
-
-        // для самопроверки
-        /*int i = 0;
-        for (Person p : persons) {
-            if (p.getAge() < 18) i++;
-        }
-        System.out.println(i + " - подсчитано без стримов");*/
-
-        // для самопроверки
-        /*List<String> recr = new ArrayList<>();
-        for (Person p : persons) {
-            if (p.getAge() >= 18 && p.getAge() <= 27 && p.getSex().equals(Sex.MAN)) {
-                recr.add(p.getFamily());
-            }
-        }
-        System.out.println(recr.size() + " - подсчитано без стримов");*/
-
-        // для самопроверки
-        /*List<Person> work = new ArrayList<>();
-        for (Person p : persons) {
-            if (p.getAge() >= 18 && p.getAge() < 65 && p.getEducation().equals(Education.HIGHER)) {
-                work.add(p);
-            }
-        }
-        System.out.println(workers.size() + " - подсчитано без стримов");*/
     }
 }
